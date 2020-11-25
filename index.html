@@ -1,213 +1,212 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" >
 
-<head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>
-    Allen-FloatingIsland
-</title>
-<link rel="shortcut icon" href="https://git4allen2018.github.io//favicon.ico?v=1606203001142">
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
-<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<title>Allen-FloatingIsland</title>
+<meta name="description" content="Allen_Walker">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://git4allen2018.github.io//favicon.ico?v=1606293397812">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://git4allen2018.github.io//styles/main.css">
-<!-- js -->
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://git4allen2018.github.io//media/js/jquery.sticky-sidebar.min.js"></script>
+
+
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-</head>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-<body>
-    <div class="main">
-        <div class="header">
-    <div class="nav">
-        <div class="logo">
-            <a href="https://git4allen2018.github.io/">
-                <img class="avatar" src="https://git4allen2018.github.io//images/avatar.png?v=1606203001142" alt="">
-            </a>
-            <div class="site-title">
-                <h1>
-                    Allen-FloatingIsland
-                </h1>
-            </div>
-        </div>
-        <span class="menu-btn fa fa-align-justify"></span>
-        <div class="menu-container">
-            <ul>
-                
-                    
-                            <li>
-                                <a href="https://git4allen2018.github.io/" class="menu">
-                                    首页
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="https://git4allen2018.github.io/archives" class="menu">
-                                    归档
-                                </a>
-                            </li>
-                            
-                                
-                    
-                            <li>
-                                <a href="https://git4allen2018.github.io/tags" class="menu">
-                                    标签
-                                </a>
-                            </li>
-                            
-                                
-            </ul>
-        </div>
-    </div>
-</div>
 
-<script>
-    $(document).ready(function() {
-        $(".menu-btn").click(function() {
-            $(".menu-container").slideToggle();
-        });
-        $(window).resize(function() {
-
-            if (window.matchMedia('(min-width: 960px)').matches) {
-                $(".menu-container").css('display', 'block')
-            } else {
-                $(".menu-container").css('display', 'none')
-            }
-
-        });
-    });
-</script>
-
-            <div id="main-content" class="post-container main-container">
-                <div id="content" class="main-container-left">
-                    
+  </head>
+  <body>
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://git4allen2018.github.io/">Allen-FloatingIsland</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
         
-            <article class="post i-card">
-                <h2 class="post-title">
-                    <a href="https://git4allen2018.github.io/post/mis-a-v110/">
-                        MIS-A v1.1.0 需求说明
-                    </a>
-                </h2>
-                <div class="post-info">
-                    <time class="post-time">2020-11-24</time>
-                    
-                        <a href="https://git4allen2018.github.io/tag/0g-RUZgSM/" class="post-tag i-tag
-                            i-tag-other_3">
-            #Work-Pages
-        </a>
-                        
-                        <a href="https://git4allen2018.github.io/tag/BFScVPqlB/" class="post-tag i-tag
-                            i-tag-other_3">
-            #MIS服务
-        </a>
-                        
-                </div>
-                <div class="post-article">
-                    
-                        <a href="https://git4allen2018.github.io/post/mis-a-v110/" class="post-feature-image" style="background-image:url(https://git4allen2018.github.io//post-images/mis-a-v110.png) ">
-                        </a>
-                        
-                            <div class="post-content">
-                                
-                                    <div class="post-content-abstract">
-                                        <p>v1.1.0 项目内容说明</p>
-
-                                    </div>
-                                    
-                                            <a class="btn btn-text" href="https://git4allen2018.github.io/post/mis-a-v110/">Read More ~</a>
-                            </div>
-                </div>
-            </article>
+          <li>
             
-            <article class="post i-card">
-                <h2 class="post-title">
-                    <a href="https://git4allen2018.github.io/post/hu-yan-luan-yu-de-kai-shi/">
-                        胡言乱语的开始
-                    </a>
-                </h2>
-                <div class="post-info">
-                    <time class="post-time">2019-12-19</time>
-                    
-                </div>
-                <div class="post-article">
-                    
-                            <div class="post-content">
-                                
-                                    <div class="post-content-abstract">
-                                        <p>尝试新开始</p>
-
-                                    </div>
-                                    
-                                            <a class="btn btn-text" href="https://git4allen2018.github.io/post/hu-yan-luan-yu-de-kai-shi/">Read More ~</a>
-                            </div>
-                </div>
-            </article>
+              <a href="https://git4allen2018.github.io/" class="menu">
+                首页
+              </a>
             
-                <!-- 翻页 -->
-                
-                </div>
-                <!--  -->
-                <div class="main-container-middle"></div>
-                <!--  -->
-                <div id="sidebar" class="main-container-right">
-
-                    <!-- 个人信息 -->
-                    
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://git4allen2018.github.io//images/avatar.png?v=1606203001142)">
-        </div>
-        <h1 class="id_card-title">
-            Allen-FloatingIsland
-        </h1>
-        <h2 class="id_card-description">
-            Allen_Walker
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
+          </li>
+        
+          <li>
             
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
-
-        </div>
+              <a href="https://git4allen2018.github.io/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://git4allen2018.github.io/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
+        
+      </ul>
     </div>
-    
-
-                        <!-- 公告栏 -->
-                        
-
-                </div>
-            </div>
+  </div>
+</nav>
 
 
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          
+  <article class="article">
+    <h2 class="article-title">
+      <a href="https://git4allen2018.github.io/post/mis-a-v110/">MIS-A v1.1.0 需求说明</a>
+    </h2>
+    <p class="article-meta">
+      2020-11-24
+      
+        <a href="https://git4allen2018.github.io/tag/0g-RUZgSM/" class="badge warning">
+          Work-Pages
+        </a>
+      
+        <a href="https://git4allen2018.github.io/tag/BFScVPqlB/" class="badge success">
+          MIS服务
+        </a>
+      
+    </p>
+    <p class="text-lead">
+      <p>v1.1.0 项目内容说明</p>
 
-            <div class="site-footer">
-   | 
-  <a class="rss" href="https://git4allen2018.github.io//atom.xml" target="_blank">RSS</a>
+    </p>
+    <div class="row">
+      <a href="https://git4allen2018.github.io/post/mis-a-v110/" class="readmore-link">
+        <button>
+          Read More
+        </button>
+      </a>
+    </div>
+  </article>
+
+  <article class="article">
+    <h2 class="article-title">
+      <a href="https://git4allen2018.github.io/post/hu-yan-luan-yu-de-kai-shi/">胡言乱语的开始</a>
+    </h2>
+    <p class="article-meta">
+      2019-12-19
+      
+    </p>
+    <p class="text-lead">
+      <p>尝试新开始</p>
+
+    </p>
+    <div class="row">
+      <a href="https://git4allen2018.github.io/post/hu-yan-luan-yu-de-kai-shi/" class="readmore-link">
+        <button>
+          Read More
+        </button>
+      </a>
+    </div>
+  </article>
+
+
+        </div>
+        
+        <div class="row flex-edges">
+  
+  
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
+      </div>
+      
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://git4allen2018.github.io//images/avatar.png?v=1606293397812" class="no-responsive avatar">
+    <div class="text-muted">Allen_Walker</div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://git4allen2018.github.io/post/mis-a-v110/">MIS-A v1.1.0 需求说明</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://git4allen2018.github.io/post/hu-yan-luan-yu-de-kai-shi/">胡言乱语的开始</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://git4allen2018.github.io/tag/0g-RUZgSM/" class="badge warning">
+          Work-Pages
+        </a>
+      
+        <a href="https://git4allen2018.github.io/tag/BFScVPqlB/" class="badge success">
+          MIS服务
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+     | <a class="rss" href="https://git4allen2018.github.io//atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
 
     </div>
-    <script>
-        $('#sidebar').stickySidebar({
-            topSpacing: 80,
-            // bottomSpacing: 60
-        });
-    </script>
-</body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+</script>
+
+
+
+
+  </body>
 </html>
